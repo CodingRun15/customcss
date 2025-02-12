@@ -1,10 +1,14 @@
 .questionOptions button.priBt {
-    background: linear-gradient(to bottom, #FF9800 0%, #FF5722 100%);
+   background: linear-gradient(to right,#805AF5 25%,#CD99FF 75%);
 }
 div.cogLogSvg {
     display : none;
 }
 h2.landMediumH {
-    color:#f5f3f2;
-    font:bold;
+    color:#BCC3D7;
+    font-style:bold;
+}
+button.priBt {
+    color:white;
+    background:linear-gradient(to right,#805AF5 25%,#CD99FF 75%);
 }
