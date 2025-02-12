@@ -1,3 +1,6 @@
 .questionOptions button.priBt {
     background: linear-gradient(to bottom, #FF9800 0%, #FF5722 100%);
 }
+div.cogLogSvg {
+    display : none;
+}
