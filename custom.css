@@ -9,7 +9,7 @@ html, body {
   border: none;
   cursor: pointer;
 }
-.desktop .trainingInstrucciontPage .fullScrenBt, .desktop .trainingTaskContainer .fullScrenBt, .desktop .assessmentTaskContainer button.priBt.fullScrenBt { 
+ .desktop .trainingInstrucciontPage button.fullScrenBt, .desktop .trainingTaskContainer button.fullScrenBt, .desktop .assessmentTaskContainer button.priBt.fullScrenBt { 
   background:none !important;
 }
 
@@ -46,13 +46,12 @@ h2.landMediumH {
     background: linear-gradient(to right, #805AF5 25%, #CD99FF 75%);
   }
   .raised-button button.priBT {
-  color: white;
   background: linear-gradient(to right, #805AF5 25%, #CD99FF 75%);
   border: none;
   cursor: pointer;
   }
-  .desktop .trainingInstrucciontPage .fullScrenBt, .desktop .trainingTaskContainer .fullScrenBt, .desktop .assessmentTaskContainer .fullScrenBt { 
-  background:none !important;
+  .desktop .trainingInstrucciontPage button.fullScrenBt, .desktop .trainingTaskContainer button.fullScrenBt, .desktop .assessmentTaskContainer button.priBt.fullScrenBt { 
+  background: none !important;
 }
   
 }
