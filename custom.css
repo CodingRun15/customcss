@@ -28,7 +28,7 @@ h2.landMediumH {
 .c_instrucDesc {
   color: #CED0D4;
 }
-div.skillsAccordion div.c_skill_LineRight{
+div.skillsAccordion div.c_skill_LineRight {
   color:#ffffff !important;
 }
 
@@ -43,12 +43,13 @@ div.skillsAccordion div.c_skill_LineRight{
  div.fixedBottom_board button.priBt.showTasksBt {
   background: linear-gradient(to right, #805AF5 25%, #CD99FF 75%) !important;
   border: none;
-    color:#ffffff;
-     max-width:100% !important;
+  color:#ffffff;
+  max-width: 100% !important;
   }
-  div.skillsAccordion div.c_skill_LineRight{
+  
+  div.skillsAccordion div.c_skill_LineRight {
   color:#ffffff !important;
-}
-}
+  }
+  }
 
 
