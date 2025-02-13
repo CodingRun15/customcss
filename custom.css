@@ -5,13 +5,17 @@ div.cogLogSvg {
     display : none;
 }
 h2.landMediumH {
-    color:#BCC3D7;
-    font-weight:bold;
+    color:#BCC3D7 !important;
+    font-weight:bold !important;
 }
 p.c_instrucDesc{
-  color: #CED0D4;
+  color: #CED0D4 !important;
    }
 button.priBt {
+    color:white;
+    background:linear-gradient(to right,#805AF5 25%,#CD99FF 75%);
+}
+button{
     color:white;
     background:linear-gradient(to right,#805AF5 25%,#CD99FF 75%);
 }
@@ -20,10 +24,10 @@ html,body{
 }
 @media (min-width:960px){
    h2.landMediumH {
-      color:#ffffff;
+      color:#ffffff !important;
    }
    p.c_instrucDesc{
-  color: #CED0D4
+  color: #CED0D4 !important;
    }
 }
 
