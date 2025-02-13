@@ -28,7 +28,7 @@ h2.landMediumH {
 .c_instrucDesc {
   color: #CED0D4;
 }
-div.skillsAccordion>div.c_skill_LineRight{
+div.skillsAccordion div.c_skill_LineRight{
   color:#ffffff !important;
 }
 
@@ -45,7 +45,7 @@ div.skillsAccordion>div.c_skill_LineRight{
   border: none;
     color:#ffffff;
   }
-  div.skillsAccordion>div.c_skill_LineRight{
+  div.skillsAccordion div.c_skill_LineRight{
   color:#ffffff !important;
 }
 }
