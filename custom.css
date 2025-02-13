@@ -1,17 +1,15 @@
 /* Global Styles */
 html, body {
   background-color: #0E0C15;
-  color: white;
 }
 
 /* Button Styles */
 .raised-button button.priBT {
-  color: white;
   background: linear-gradient(to right, #805AF5 25%, #CD99FF 75%);
   border: none;
   cursor: pointer;
 }
-.desktop .trainingInstrucciontPage .fullScrenBt, .desktop .trainingTaskContainer .fullScrenBt, .desktop .assessmentTaskContainer .fullScrenBt { 
+.desktop .trainingInstrucciontPage .fullScrenBt, .desktop .trainingTaskContainer .fullScrenBt, .desktop .assessmentTaskContainer button.priBt.fullScrenBt { 
   background:none !important;
 }
 
@@ -45,8 +43,7 @@ h2.landMediumH {
   }
 
   button.priBt {
-    background: linear-gradient(to right, #805AF5 25%, #CD99FF 75%) !important;
-    color: white !important ;
+    background: linear-gradient(to right, #805AF5 25%, #CD99FF 75%);
   }
   .raised-button button.priBT {
   color: white;
