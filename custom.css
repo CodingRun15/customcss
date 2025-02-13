@@ -6,9 +6,24 @@ div.cogLogSvg {
 }
 h2.landMediumH {
     color:#BCC3D7;
-    font-style:bold;
+    font-weight:bold;
 }
+p.c_instrucDesc{
+  color: #CED0D4;
+   }
 button.priBt {
     color:white;
     background:linear-gradient(to right,#805AF5 25%,#CD99FF 75%);
 }
+html,body{
+   background-color:#0E0C15;
+}
+@media (min-width:960px){
+   h2.landMediumH {
+      color:#ffffff;
+   }
+   p.c_instrucDesc{
+  color: #CED0D4
+   }
+}
+
