@@ -9,8 +9,13 @@ html, body {
   border: none;
   cursor: pointer;
 }
- .desktop .trainingInstrucciontPage button.fullScrenBt, .desktop .trainingTaskContainer button.fullScrenBt, .desktop .assessmentTaskContainer button.priBt.fullScrenBt { 
-  background:none !important;
+.desktop .trainingInstrucciontPage button.fullScrenBt,
+.desktop .trainingTaskContainer button.fullScrenBt,
+.desktop .assessmentTaskContainer button.priBt.fullScrenBt {
+  background: transparent !important;
+  border: none !important;
+  box-shadow: none !important;
+  color: inherit !important;
 }
 
 /* Specific Class Styles */
@@ -48,11 +53,16 @@ h2.landMediumH {
   .raised-button button.priBT {
   background: linear-gradient(to right, #805AF5 25%, #CD99FF 75%);
   border: none;
-  cursor: pointer;
+.desktop .trainingInstrucciontPage button.fullScrenBt,
+.desktop .trainingTaskContainer button.fullScrenBt,
+.desktop .assessmentTaskContainer button.priBt.fullScrenBt {
+  background: transparent !important;
+  border: none !important;
+  box-shadow: none !important;
+  color: inherit !important;
+}  cursor: pointer;
   }
-  .desktop .trainingInstrucciontPage button.fullScrenBt, .desktop .trainingTaskContainer button.fullScrenBt, .desktop .assessmentTaskContainer button.priBt.fullScrenBt { 
-  background: none !important;
-}
+
   
 }
 
