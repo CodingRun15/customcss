@@ -28,6 +28,9 @@ h2.landMediumH {
 .c_instrucDesc {
   color: #CED0D4;
 }
+div.skillsAccordian div.c_skill_LineRight{
+  color:#BCC3D7 !important;
+}
 
 /* Media Query */
 @media (min-width: 960px) {
@@ -42,6 +45,9 @@ h2.landMediumH {
   border: none;
     color:#ffffff;
   }
+  div.skillsAccordian div.c_skill_LineRight{
+  color:#BCC3D7 !important;
+}
 }
 
 
