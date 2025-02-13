@@ -4,19 +4,11 @@ html, body {
 }
 
 /* Button Styles */
-.raised-button button.priBT {
-  background: linear-gradient(to right, #805AF5 25%, #CD99FF 75%);
+ .mat-focus-indicator .priBt .mat-raised-button .mat-button-base .showTasksBt {
+  background: linear-gradient(to right, #805AF5 25%, #CD99FF 75%) !important;
   border: none;
-  cursor: pointer;
-}
-.desktop .trainingInstrucciontPage button.fullScrenBt,
-.desktop .trainingTaskContainer button.fullScrenBt,
-.desktop .assessmentTaskContainer button.priBt.fullScrenBt {
-  background: transparent !important;
-  border: none !important;
-  box-shadow: none !important;
-  color: inherit !important;
-}
+    color:#ffffff;
+  }
 
 /* Specific Class Styles */
 .questionOptions button.priBt {
@@ -45,16 +37,10 @@ h2.landMediumH {
   p.c_instrucDesc {
     color: #CED0D4;
   }
-  .raised-button button.priBT {
-  background: linear-gradient(to right, #805AF5 25%, #CD99FF 75%);
+  .mat-focus-indicator .priBt .mat-raised-button .mat-button-base .showTasksBt {
+  background: linear-gradient(to right, #805AF5 25%, #CD99FF 75%) !important;
   border: none;
-  }
-.desktop .trainingInstrucciontPage button.fullScrenBt,.desktop .trainingTaskContainer button.fullScrenBt,.desktop .assessmentTaskContainer button.priBt.fullScrenBt {
-  background: transparent !important;
-  border: none !important;
-  box-shadow: none !important;
-  color: inherit !important;
-  cursor: pointer;
+    color:#ffffff;
   }
 }
 
