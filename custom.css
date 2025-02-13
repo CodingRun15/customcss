@@ -53,6 +53,9 @@ h2.landMediumH {
   background: linear-gradient(to right, #805AF5 25%, #CD99FF 75%);
   border: none;
   cursor: pointer;
+  }
+  button.fullScrenBt { 
+  background-color:none !important;
 }
   
 }
