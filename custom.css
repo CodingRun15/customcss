@@ -11,7 +11,7 @@ html, body {
   border: none;
   cursor: pointer;
 }
-button.fullScrenBt { 
+.desktop .trainingInstrucciontPage .fullScrenBt, .desktop .trainingTaskContainer .fullScrenBt, .desktop .assessmentTaskContainer .fullScrenBt { 
   background-color:none !important;
 }
 
@@ -54,7 +54,7 @@ h2.landMediumH {
   border: none;
   cursor: pointer;
   }
-  button.fullScrenBt { 
+  .desktop .trainingInstrucciontPage .fullScrenBt, .desktop .trainingTaskContainer .fullScrenBt, .desktop .assessmentTaskContainer .fullScrenBt { 
   background-color:none !important;
 }
   
