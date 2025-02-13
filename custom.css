@@ -11,6 +11,9 @@ html, body {
   border: none;
   cursor: pointer;
 }
+button.fullScrenBt { 
+  background-color:none !important;
+}
 
 /* Specific Class Styles */
 .questionOptions button.priBt {
