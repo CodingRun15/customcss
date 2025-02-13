@@ -5,29 +5,25 @@ html, body {
 }
 
 /* Button Styles */
-button {
+.raised-button button.priBT {
   color: white;
   background: linear-gradient(to right, #805AF5 25%, #CD99FF 75%);
   border: none;
   cursor: pointer;
 }
 
-button.priBt {
-  /* No need to repeat color or background, it inherits from button */
-}
-
 /* Specific Class Styles */
 .questionOptions button.priBt {
   /* More specific, takes priority over button.priBt */
-  background: linear-gradient(to right, #805AF5 25%, #CD99FF 75%);
+  background: linear-gradient(to right, #805AF5 25%, #CD99FF 75%) !important;
 }
 
 div.cogLogSvg {
   display: none;
 }
 
-.landMediumH {
-  color: #BCC3D7;
+h2.landMediumH {
+  color: #BCC3D7 !important;
   font-weight: bold;
 }
 
@@ -45,10 +41,17 @@ div.cogLogSvg {
     color: #CED0D4;
   }
 
-  button {
-    background: linear-gradient(to right, #805AF5 25%, #CD99FF 75%);
-    color: white;
+  button.priBt {
+    background: linear-gradient(to right, #805AF5 25%, #CD99FF 75%) !important;
+    color: white !important ;
   }
+  .raised-button button.priBT {
+  color: white;
+  background: linear-gradient(to right, #805AF5 25%, #CD99FF 75%);
+  border: none;
+  cursor: pointer;
+}
+  
 }
 
 
