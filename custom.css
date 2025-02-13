@@ -4,7 +4,7 @@ html, body {
 }
 
 /* Button Styles */
- .mat-focus-indicator .priBt .mat-raised-button .mat-button-base .showTasksBt {
+div.fixedBottom_board button.priBt.showTasksBt {
   background: linear-gradient(to right, #805AF5 25%, #CD99FF 75%) !important;
   border: none;
     color:#ffffff;
@@ -37,7 +37,7 @@ h2.landMediumH {
   p.c_instrucDesc {
     color: #CED0D4;
   }
-  .mat-focus-indicator .priBt .mat-raised-button .mat-button-base .showTasksBt {
+ div.fixedBottom_board button.priBt.showTasksBt {
   background: linear-gradient(to right, #805AF5 25%, #CD99FF 75%) !important;
   border: none;
     color:#ffffff;
