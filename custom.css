@@ -12,7 +12,7 @@ html, body {
   cursor: pointer;
 }
 .desktop .trainingInstrucciontPage .fullScrenBt, .desktop .trainingTaskContainer .fullScrenBt, .desktop .assessmentTaskContainer .fullScrenBt { 
-  background-color:none !important;
+  background:none !important;
 }
 
 /* Specific Class Styles */
@@ -55,7 +55,7 @@ h2.landMediumH {
   cursor: pointer;
   }
   .desktop .trainingInstrucciontPage .fullScrenBt, .desktop .trainingTaskContainer .fullScrenBt, .desktop .assessmentTaskContainer .fullScrenBt { 
-  background-color:none !important;
+  background:none !important;
 }
   
 }
