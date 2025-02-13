@@ -28,8 +28,8 @@ h2.landMediumH {
 .c_instrucDesc {
   color: #CED0D4;
 }
-div.skillsAccordian div.c_skill_LineRight{
-  color:#BCC3D7 !important;
+div.skillsAccordion>div.c_skill_LineRight{
+  color:#ffffff !important;
 }
 
 /* Media Query */
@@ -45,8 +45,8 @@ div.skillsAccordian div.c_skill_LineRight{
   border: none;
     color:#ffffff;
   }
-  div.skillsAccordian div.c_skill_LineRight{
-  color:#BCC3D7 !important;
+  div.skillsAccordian>div.c_skill_LineRight{
+  color:#ffffff !important;
 }
 }
 
