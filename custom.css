@@ -4,7 +4,7 @@ html, body {
 }
 
 /* Button Styles */
-div.fixedBottom_board button.priBt.showTasksBt:not(.fullScrenBt) {
+div.fixedBottom_board button.priBt:not(.fullScrenBt) {
   background: linear-gradient(to right, #805AF5 25%, #CD99FF 75%) !important;
   border: none;
   color: #ffffff;
@@ -41,7 +41,7 @@ div.skillsAccordion div.c_skill_LineRight {
   p.c_instrucDesc {
     color: #CED0D4;
   }
-div.fixedBottom_board button.priBt.showTasksBt:not(.fullScrenBt) {
+div.fixedBottom_board button.priBt:not(.fullScrenBt) {
   background: linear-gradient(to right, #805AF5 25%, #CD99FF 75%) !important;
   border: none;
   color: #ffffff;
