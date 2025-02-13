@@ -1,33 +1,54 @@
-.questionOptions button.priBt {
-   background: linear-gradient(to right,#805AF5 25%,#CD99FF 75%);
+/* Global Styles */
+html, body {
+  background-color: #0E0C15;
+  color: white;
 }
-div.cogLogSvg {
-    display : none;
+
+/* Button Styles */
+button {
+  color: white;
+  background: linear-gradient(to right, #805AF5 25%, #CD99FF 75%);
+  border: none;
+  cursor: pointer;
 }
-h2.landMediumH {
-    color:#BCC3D7 !important;
-    font-weight:bold !important;
-}
-p.c_instrucDesc{
-  color: #CED0D4 !important;
-   }
+
 button.priBt {
-    color:white;
-    background:linear-gradient(to right,#805AF5 25%,#CD99FF 75%);
+  /* No need to repeat color or background, it inherits from button */
 }
-button{
-    color:white;
-    background:linear-gradient(to right,#805AF5 25%,#CD99FF 75%);
+
+/* Specific Class Styles */
+.questionOptions button.priBt {
+  /* More specific, takes priority over button.priBt */
+  background: linear-gradient(to right, #805AF5 25%, #CD99FF 75%);
 }
-html,body{
-   background-color:#0E0C15;
+
+div.cogLogSvg {
+  display: none;
 }
-@media (min-width:960px){
-   h2.landMediumH {
-      color:#ffffff !important;
-   }
-   p.c_instrucDesc{
-  color: #CED0D4 !important;
-   }
+
+.landMediumH {
+  color: #BCC3D7;
+  font-weight: bold;
 }
+
+.c_instrucDesc {
+  color: #CED0D4;
+}
+
+/* Media Query */
+@media (min-width: 960px) {
+  h2.landMediumH {
+    color: #FFFFFF;
+  }
+
+  p.c_instrucDesc {
+    color: #CED0D4;
+  }
+
+  button {
+    background: linear-gradient(to right, #805AF5 25%, #CD99FF 75%);
+    color: white;
+  }
+}
+
 
