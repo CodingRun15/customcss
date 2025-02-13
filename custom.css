@@ -7,7 +7,8 @@ html, body {
 div.fixedBottom_board button.priBt.showTasksBt {
   background: linear-gradient(to right, #805AF5 25%, #CD99FF 75%) !important;
   border: none;
-    color:#ffffff;
+  color:#ffffff;
+  max-width:none !important;
   }
 
 /* Specific Class Styles */
