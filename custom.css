@@ -34,8 +34,8 @@ h2.landMediumH {
 div.skillsAccordion div.c_skill_LineRight {
   color:#ffffff !important;
 }
-.lobbyAssessH .lobbyAssessH_2{
-  color:#ffffff;
+div.lobbyAssess h1.lobbyAssessH h2.lobbyAssessH_2 {
+  color: #ffffff;
 }
 
 /* Media Query */
