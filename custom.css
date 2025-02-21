@@ -34,8 +34,11 @@ h2.landMediumH {
 div.skillsAccordion div.c_skill_LineRight {
   color:#ffffff !important;
 }
-div.lobbyAssess h1.lobbyAssessH h2.lobbyAssessH_2 {
-  color: #ffffff;
+div.lobbyAssess.table.tableCell h1.lobbyAssessH h2.lobbyAssessH_2  {
+  color: #b7b3b3 !important;
+}
+div.lobbyAssess.table.tableCell button.priBt {
+   background: linear-gradient(to right, #805AF5 25%, #CD99FF 75%) !important;
 }
 
 /* Media Query */
@@ -56,8 +59,11 @@ div.fixedBottom_board button.priBt:not(.fullScrenBt) {
   div.skillsAccordion div.c_skill_LineRight {
   color:#ffffff !important;
   }
-  .lobbyAssessH .lobbyAssessH_2{
-  color:#ffffff;
+div.lobbyAssess.table.tableCell h1.lobbyAssessH h2.lobbyAssessH_2 {
+  color: #b7b3b3 !important;
+}
+  div.lobbyAssess.table.tableCell button.priBt {
+   background: linear-gradient(to right, #805AF5 25%, #CD99FF 75%) !important;
 }
   }
 
