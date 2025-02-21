@@ -32,6 +32,9 @@ h2.landMediumH {
 div.skillsAccordion div.c_skill_LineRight {
   color:#ffffff !important;
 }
+.lobbyAssessH .lobbyAssessH_2{
+  color:#ffffff;
+}
 
 /* Media Query */
 @media (min-width: 960px) {
@@ -51,6 +54,9 @@ div.fixedBottom_board button.priBt:not(.fullScrenBt) {
   div.skillsAccordion div.c_skill_LineRight {
   color:#ffffff !important;
   }
+  .lobbyAssessH .lobbyAssessH_2{
+  color:#ffffff;
+}
   }
 
 
