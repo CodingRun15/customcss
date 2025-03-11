@@ -4,7 +4,11 @@ html, body {
   color:#2a2f39 ;
   
 }
-
+#cognifit-html5-iframe{
+  width:100vw;
+  height:100vh;
+  asepct-ratio:16 / 9;
+}
 /* Button Styles */
 div.fixedBottom_board button.priBt:not(.fullScrenBt) {
   background: linear-gradient(to right, #805AF5 25%, #CD99FF 75%) !important;
