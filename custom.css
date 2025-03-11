@@ -4,11 +4,6 @@ html, body {
   color:#2a2f39 ;
   
 }
-iframe {
-  allowfullscreen:true;
-  min-height:100vh !important;
-  min-width:100vw !important;
-}
 /* Button Styles */
 div.fixedBottom_board button.priBt:not(.fullScrenBt) {
   background: linear-gradient(to right, #805AF5 25%, #CD99FF 75%) !important;
