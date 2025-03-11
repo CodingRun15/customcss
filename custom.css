@@ -5,7 +5,6 @@ html, body {
   
 }
 iframe {
-  aspect-ratio:16 / 9;
   allowfullscreen:true;
   min-height:100vh;
   min-width:100vw;
