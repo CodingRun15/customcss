@@ -4,10 +4,10 @@ html, body {
   color:#2a2f39 ;
   
 }
-#cognifit-html5-iframe{
+iframe{
   width:100vw;
   height:100vh;
-  asepct-ratio:16 / 9;
+  aspect-ratio:16 / 9;
 }
 /* Button Styles */
 div.fixedBottom_board button.priBt:not(.fullScrenBt) {
