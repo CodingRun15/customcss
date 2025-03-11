@@ -6,8 +6,8 @@ html, body {
 }
 iframe {
   allowfullscreen:true;
-  min-height:100vh;
-  min-width:100vw;
+  min-height:100vh !important;
+  min-width:100vw !important;
 }
 /* Button Styles */
 div.fixedBottom_board button.priBt:not(.fullScrenBt) {
